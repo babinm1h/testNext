@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+
+    .input {
+        padding: 10px;
+        width: 100px;
+        min-width: 50px;
+        border-bottom: 1px solid $primaryColor;
+    }
+}

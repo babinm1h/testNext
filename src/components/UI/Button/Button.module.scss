@@ -1,0 +1,44 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: $primaryColor;
+    color: $white;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: darken($primaryColor, 8%);
+    }
+    &.success {
+        background-color: $successColor;
+        &:hover {
+            background-color: darken($successColor, 8%);
+        }
+    }
+    &.danger {
+        background-color: $dangerColor;
+        &:hover {
+            background-color: darken($dangerColor, 8%);
+        }
+    }
+    &.error {
+        background-color: $errorColor;
+        &:hover {
+            background-color: darken($errorColor, 8%);
+        }
+    }
+    &.fullWidth {
+        width: 100%;
+        &:hover {
+            background-color: darken($primaryColor, 10%);
+        }
+    }
+    &:disabled {
+        opacity: 0.8;
+        background-color: #999;
+        pointer-events: none;
+    }
+}

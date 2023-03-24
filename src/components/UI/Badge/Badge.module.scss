@@ -1,0 +1,15 @@
+.badge {
+    background-color: $primaryColor;
+    padding: 4px 6px;
+    font-weight: bold;
+    font-size: 70%;
+    line-height: 1;
+    border-radius: 4px;
+    color: $white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &.success {
+        background-color: $successColor;
+    }
+}
