@@ -5,7 +5,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  images: { domains: ["fakestoreapi.com", "i.dummyjson.com"] },
+  images: { domains: ["i.dummyjson.com"] },
   sassOptions: {
     includePaths: [path.join(__dirname, "src/styles")],
     prependData: `@import "src/styles/variables.scss";`,
